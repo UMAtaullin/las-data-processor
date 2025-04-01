@@ -7,4 +7,4 @@ if df is not None:
     # Фильтрация аномалий (например, RES > 1000 Ом·м)
     df_clean = filter_anomalies(df, "RES", 1000.0)
     # Визуализация
-    plot_curves(df_clean, ["GR", "RES", "NPHI"], "Пример обработки LAS")
+    plot_curves(df_clean, ["GR", "RES", "DT"], "Пример обработки LAS")
