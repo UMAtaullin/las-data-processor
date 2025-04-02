@@ -9,6 +9,7 @@
 
 
 ## Структура проекта:
+```
 las-data-processor/  
 ├── data/                  # Папка для тестовых LAS-файлов  
 │   └── example.las  
@@ -18,6 +19,7 @@ las-data-processor/
 │   └── plotter.py         # Визуализация  
 ├── requirements.txt       # Зависимости  
 └── README.md              # Описание проекта  
+```
 
 ## Установка и запуск (результат появится в папке res):
 ```bash
